@@ -2,7 +2,7 @@ import { Sparkles, RefreshCw, Wand2, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const insights = [
-  "Creative B's headline is 40% larger and positioned in the upper third, capturing attention within the first 0.5 seconds.",
+  "bla bla to see changes",
   "CTA button in Creative B uses higher contrast (teal on dark) vs Creative A's muted gray, improving click likelihood by ~18%.",
   "Consider A/B testing Creative B with a shorter headline (max 6 words) to further boost engagement.",
 ];
