@@ -58,8 +58,8 @@ export function ScoreCard() {
       <div className="space-y-6">
         <Metric
           label="Headline Attention"
-          valueA={72}
-          valueB={85}
+          valueA={85}
+          valueB={72}
           icon={Eye}
         />
         
@@ -78,11 +78,11 @@ export function ScoreCard() {
           
           <div className="grid grid-cols-2 gap-4">
             <div className="text-center">
-              <div className="text-3xl font-bold text-card-foreground">71%</div>
+              <div className="text-3xl font-bold text-card-foreground">83%</div>
               <div className="text-xs text-muted-foreground">Creative A</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-success">83%</div>
+              <div className="text-3xl font-bold text-success">71%</div>
               <div className="text-xs text-muted-foreground">Creative B</div>
             </div>
           </div>

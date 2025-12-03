@@ -1,10 +1,12 @@
 import { Sparkles, RefreshCw, Wand2, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const insights = [
-  "bla bla to see changes",
-  "CTA button in Creative B uses higher contrast (teal on dark) vs Creative A's muted gray, improving click likelihood by ~18%.",
-  "Consider A/B testing Creative B with a shorter headline (max 6 words) to further boost engagement.",
+const insights = [ 
+  "Product Focus & Attention: Ad A presents the jacket as the clear hero item and captures product-focused attention more effectively than Ad B, where the viewer’s attention spreads across the full outfit rather than the jacket itself.",
+  "CTA Visibility: Both ads have weak, low-contrast CTAs that fail to attract attention, and increasing CTA color contrast would significantly improve actionability.",
+  "Text Legibility: Ad A delivers clearer, more readable copy due to its clean sky background, whereas Ad B’s text overlaps with the pants and creates unnecessary visual noise.",
+  "Brand Visibility: Ad B offers stronger brand visibility with a centrally placed, easily noticeable logo, while Ad A’s lower logo placement makes the brand less likely to be seen quickly.",
+  "Message–Visual Fit: Ad A aligns better with the “light” and “warm” message through its bright sky, upward pose, and airy mood, whereas Ad B’s more static and formal presentation weakens the intended emotional tone.",
 ];
 
 export function AISummaryCard() {
